@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinder School | Programs</title>
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+ <!-- Header -->
+ <header class="font-Salsa">
+    <section class="fixed top-0 w-full z-10 bg-white">
+      <!-- Top bar -->
+      <div class="lg:w-3/5 w-full container p-2 mx-auto lg:flex flex-wrap items-center justify-between hidden">
+        <a href="./index.html">
+          <img src="../images/logo.png" alt="Logo">
+        </a>
+        <div class="flex justify-center items-center">
+          <img src="../images/location.png" alt="Location">
+          <p class="text-lg">School Location<br>
+            <span class=" text-blue-900">55 Main Street, New York</span>
+          </p>
+        </div>
+        <div class="flex justify-center items-center">
+          <img src="../images/hotline.png" alt="Hotline">
+          <p class="text-lg">Hotline<br>
+            +012 (345) 678</p>
+        </div>
+      </div>
+      <!-- Navbar -->
+      <nav
+        class="w-full z-50 flex flex-wrap items-center justify-between px-2 py-3 lg:bg-white bg-[#2C4073] text-black">
+        <div
+          class="xl:w-3/5 md:w-full w-full container lg:p-5 lg:pb-6 mx-auto flex flex-wrap items-center justify-between lg:bg-[url('../images/nav-bg.png')] lg:bg-cover bg-no-repeat">
+          <div class="w-full relative flex justify-between lg:w-auto px-4 py-2 lg:static lg:block lg:items-start">
+            <a href="" class="lg:hidden block">
+              <img src="../images/logo-light.png" alt="Logo Light">
+            </a>
+            <button
+              class="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              type="button" onclick="toggleNavbar('collapse-navbar')">
+              <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="30px" height="30px">
+                <path
+                  d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z" />
+              </svg>
+            </button>
+          </div>
+          <div class="lg:flex flex-grow hidden lg:py-0 py-10 text-white bg-[#2C4073]" id="collapse-navbar">
+            <ul
+              class="flex flex-col lg:flex-row lg:items-center items-start list-none lg:mx-auto gap-y-4 justify-start ">
+              <li class="nav-item uppercase">
+                <a class="py-2 flex items-center leading-snug hover:text-red-400 text-lg  mx-6" href="./index.html">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item uppercase">
+                <a class="py-2 flex items-center leading-snug hover:text-red-400 text-lg  mx-6" href="./about.html">
+                  About
+                </a>
+              </li>
+              <li class="nav-item uppercase">
+                <a class=" py-2 flex items-center leading-snug hover:text-red-400 text-lg  mx-6" href="./programs.html">
+                  Programs
+                </a>
+              </li>
+              <li class="nav-item uppercase">
+                <a class=" py-2 flex items-center leading-snug hover:text-red-400 text-lg mx-6" href="./faq.html">
+                  FAQ
+                </a>
+              </li>
+              <li class="nav-item uppercase">
+                <a class=" py-2 flex items-center leading-snug hover:text-red-400 text-lg mx-6"
+                  href="./testimonials.html">
+                  Testimonials
+                </a>
+              </li>
+              <li class="nav-item lg:mt-0 lg:my-0 my-4 text-white text-lg  uppercase">
+                <a href="./contact.html"
+                  class="rounded-md mx-6 px-7 py-3 text-lg text-white font-medium bg-red-500">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- /Navbar -->
+    </section>
+  </header>
+    <!-- Main -->
+    <main>
+        <!-- Breadcrumb section -->
+        <section
+            class="lg:bg-[url('../images/breadcrumb-light-bg.png')] bg-cover  xl:py-96 md:py-40 py-10 pb-10 mt-20  bg-[#2C4073] lg:text-blue-900 text-white">
+            <div class="lg:w-3/5 w-full h-full container p-2 mx-auto font-Salsa flex items-center justify-center">
+                <p class="lg:text-5xl text-3xl text-center">Programs</p>
+            </div>
+        </section>
+        <!-- Programs & Plans -->
+        <section class="bg-[url('../images/bg-light.png')] py-5 lg:pb-32 bg-[#FCF9F4]">
+            <div
+                class="lg:w-3/5 w-full container p-2 mx-auto h-full flex flex-col text-center justify-center font-Salsa">
+                <h2 class="lg:text-5xl text-4xl mt-5 text-blue-900 lg:mb-20">Discover Now Why People<br> Come With
+                    Kindco</h2>
+                <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-between gap-5 my-3">
+                    <div
+                        class="p-7 shadow-md shadow-neutral-200 text-blue-900 flex flex-col text-center justify-center items-center bg-[url('../images/card-bg.png')] bg-no-repeat bg-cover">
+                        <img src="../images/program-1.png" alt="Program" width="50%" class="mb-5">
+                        <h3 class="text-2xl font-Salsa text-blue-900">Study & Game</h3>
+                        <p class="text-neutral-600 my-5 font-sans">Sed ut perspiciatis unde omnis iste natu voluptatem
+                            accus antium
+                            dolorem
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div
+                        class="lg:relative top-16 static p-7 shadow-md shadow-neutral-200 text-blue-900 flex flex-col text-center justify-center items-center bg-[url('../images/card-bg.png')] bg-no-repeat bg-cover">
+                        <img src="../images/program-2.png" alt="Program" width="50%" class="mb-5">
+                        <h3 class="text-2xl font-Salsa text-blue-900">Study & Game</h3>
+                        <p class="text-neutral-600 my-5 font-sans">Sed ut perspiciatis unde omnis iste natu voluptatem
+                            accus antium
+                            dolorem
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div
+                        class="p-7 shadow-md shadow-neutral-200 text-blue-900 flex flex-col text-center justify-center items-center bg-[url('../images/card-bg.png')] bg-no-repeat bg-cover">
+                        <img src="../images/program-3.png" alt="Program" width="50%" class="mb-5">
+                        <h3 class="text-2xl font-Salsa text-blue-900">Study & Game</h3>
+                        <p class="text-neutral-600 my-5 font-sans">Sed ut perspiciatis unde omnis iste natu voluptatem
+                            accus antium
+                            dolorem
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div
+                        class="p-7 lg:relative top-16 shadow-md text-blue-900 shadow-neutral-200 flex flex-col text-center justify-center items-center bg-[url('../images/card-bg.png')] bg-no-repeat bg-cover">
+                        <img src="../images/program-4.png" alt="Program" width="50%" class="mb-5">
+                        <h3 class="text-2xl font-Salsa text-blue-900">Study & Game</h3>
+                        <p class="text-neutral-600 my-5 font-sans">Sed ut perspiciatis unde omnis iste natu voluptatem
+                            accus antium
+                            dolorem
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-between gap-5 my-3">
+                    <div
+                        class="p-7 shadow-md shadow-neutral-200 text-blue-900 flex flex-col text-center justify-center items-center bg-[url('../images/card-bg.png')] bg-no-repeat bg-cover">
+                        <img src="../images/program-1.png" alt="Program" width="50%" class="mb-5">
+                        <h3 class="text-2xl font-Salsa text-blue-900">Study & Game</h3>
+                        <p class="text-neutral-600 my-5 font-sans">Sed ut perspiciatis unde omnis iste natu voluptatem
+                            accus antium
+                            dolorem
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div
+                        class="lg:relative top-16 static p-7 shadow-md shadow-neutral-200 text-blue-900 flex flex-col text-center justify-center items-center bg-[url('../images/card-bg.png')] bg-no-repeat bg-cover">
+                        <img src="../images/program-2.png" alt="Program" width="50%" class="mb-5">
+                        <h3 class="text-2xl font-Salsa text-blue-900">Study & Game</h3>
+                        <p class="text-neutral-600 my-5 font-sans">Sed ut perspiciatis unde omnis iste natu voluptatem
+                            accus antium
+                            dolorem
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div
+                        class="p-7 shadow-md shadow-neutral-200 text-blue-900 flex flex-col text-center justify-center items-center bg-[url('../images/card-bg.png')] bg-no-repeat bg-cover">
+                        <img src="../images/program-3.png" alt="Program" width="50%" class="mb-5">
+                        <h3 class="text-2xl font-Salsa text-blue-900">Study & Game</h3>
+                        <p class="text-neutral-600 my-5 font-sans">Sed ut perspiciatis unde omnis iste natu voluptatem
+                            accus antium
+                            dolorem
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div
+                        class="p-7 lg:relative top-16 shadow-md shadow-neutral-200 text-blue-900 flex flex-col text-center justify-center items-center bg-[url('../images/card-bg.png')] bg-no-repeat bg-cover">
+                        <img src="../images/program-4.png" alt="Program" width="50%" class="mb-5">
+                        <h3 class="text-2xl font-Salsa text-blue-900">Study & Game</h3>
+                        <p class="text-neutral-600 my-5 font-sans">Sed ut perspiciatis unde omnis iste natu voluptatem
+                            accus antium
+                            dolorem
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section class="lg:pt-20 py-5 bg-white">
+            <div class="lg:w-3/5 w-full container p-2 mx-auto h-full flex flex-col justify-center font-Salsa">
+                <div class="flex flex-col lg:flex-row items-center justify-center lg:gap-20">
+                    <div class="lg:w-5/12 w-full col">
+                        <img src="../images/about-us.png" alt="about" width="100%" />
+                    </div>
+                    <div class="lg:w-7/12 w-full flex flex-col justify-center items-start text-lg">
+                        <h1 class="lg:text-5xl text-3xl mt-5 font-Salsa text-blue-900">Programs Make Great Place Learn
+                            More Knowladge</h1>
+                        <p class="text-neutral-600 mt-5 font-sans">Amet consectetur adipiscin elitsed eiusmod tempor
+                            incididunt
+                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                            maecenas accumsan
+                        </p>
+                        <p class="text-neutral-600 mt-5 font-sans">Amet consectetur adipiscin elitsed eiusmod tempor
+                            incididunt
+                            labore et dolore magna aliqua.
+                        </p>
+                        <a href="./contact.html"
+                            class="rounded-md my-5 px-7 py-3 text-lg text-white font-medium bg-red-500">Contact Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Newsletter -->
+    <section>
+        <div
+          class="my-10 px-2 xl:py-20 py-5 xl:w-3/5 md:w-4/5 w-full  lg:bg-[url('../images/newsletter.png')] bg-cover bg-no-repeatcontainer mx-auto lg:bg-transparent bg-[#FCF9F4] flex flex-col justify-start font-Salsa text-center static lg:relative lg:top-48">
+          <h3 class="xl:text-5xl text-3xl mt-5 font-Salsa text-blue-900">Subscribe our Newsletter</h3>
+          <p class="lg:w-1/2 w-full mt-5 mx-auto font-sans">Amet consectetur adipiscing elit, sed do eiusmod
+            tempor
+            incididunt ut labore et dolore magna aliqua suspendisse ultrices gravida. Risus commodo
+          </p>
+          <div class="lg:w-2/5 w-full mx-auto my-5">
+            <div class="relative mt-1 rounded-md shadow-sm">
+              <input type="email" name="email" id="email" class="block w-full rounded-md px-7 py-3 font-sans border-transparent outline-transparent focus:border-transparent focus:outline-transparent focus:ring-0"
+                placeholder="Enter Email">
+              <div class="absolute inset-y-0 -right-1 flex items-center">
+                <button type="submit"
+                  class="rounded-md ml-6 px-7 py-3 text-lg text-white font-medium bg-red-500">SUBMIT</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+   <!-- Footer -->
+   <footer>
+    <section class="lg:bg-[url('../images/footer-bg.jpg')] py-5 bg-no-repeat text-white lg:pt-60 bg-[#2C4073]">
+      <div class="lg:w-3/5 w-full container p-2 mx-auto flex flex-col items-center justify-start">
+        <div class="grid w-full md:w-auto grid-cols-1 md:grid-cols-3 gap-0 lg:gap-4 md:items-start px-5">
+          <div class="flex justify-start flex-col lg:pr-20">
+            <a href="./index.html" class="mb-8">
+              <!-- Logo -->
+              <img src="../images/logo-light.png" alt="Logo Light"></a>
+                 <!-- /Logo -->
+              <p class="mt-5">Sit amet consectetur adipiscing elit sed do eiusmod teminci idure magna. Oipiscing elit
+                sed do eiu</p>
+              <div class="flex mt-10">
+                <a href="#">
+                  <!-- Facebook -->
+                  <img src="../images/facebook.svg" alt="facebook" class="mr-2">
+                </a>
+                <a href="#">
+                  <!-- Instagram -->
+                  <img src="../images/instagram.svg" alt="instagram" class="mr-2">
+                </a>
+                <a href="#">
+                  <!-- linkedin -->
+                  <img src="../images/linkedin.svg" alt="linkedin" class="mr-2">
+                </a>
+              </div>
+          </div>
+          <div class="flex justify-start flex-col lg:pt-0 pt-10">
+            <h3 class="text-3xl font-Salsa">Quick Links</h3>
+            <ul class="mt-8">
+              <li class="text-lg mb-4">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="text-lg mb-4">
+                <a href="./about.html">About</a>
+              </li>
+              <li class="text-lg mb-4">
+                <a href="./programs.html">Programs</a>
+              </li>
+              <li class="text-lg mb-4">
+                <a href="./faq.html">FAQ</a>
+              </li>
+              <li class="text-lg mb-4">
+                <a href="./testimonials.html">Testimonials</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col justify-start items-start md:justify-end md:items-center">
+            <div
+              class="flex flex-col justify-center items-center bg-[url('../images/footer-hours.png')] h-[336px] w-full text-center bg-cover bg-no-repeat text-white">
+              <h3 class="text-3xl font-Salsa">Opening Hours</h3>
+              <p class="text-lg mb-4 font-semibold">Sunday - Friday<br>8 am - 5 pm</p>
+              <div class="w-1/2 h-1 border-dashed border-2 border-white mt-2 mb-5"></div>
+              <p class="text-lg mb-4 font-semibold"> Every Saturday and<br> Govt Holiday</p>
+              <h3 class="text-3xl font-Salsa">Closed</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-3/5 bg-white/5 text-white text-center py-3 mt-10 mx-auto">
+        <p>Copyright@Smart Kinco</p>
+      </div>
+    </section>
+  </footer>
+  <!-- Main js file -->
+  <script src="../js/main.js"></script>
+</html>

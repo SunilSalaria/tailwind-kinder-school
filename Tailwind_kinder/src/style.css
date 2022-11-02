@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom font family */
+@font-face {
+    font-family: "Salsa";
+    src: url(../fonts/Salsa-Regular.ttf);
+  }
